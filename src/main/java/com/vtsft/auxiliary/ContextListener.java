@@ -55,13 +55,13 @@ public class ContextListener implements ServletContextListener {
 
     private String getName(boolean male) {
         if (male) {
-            return MALE_FIRST_NAMES[random.nextInt(MALE_FIRST_NAMES.length)] + " " +
+            return MALE_LAST_NAMES[random.nextInt(MALE_FIRST_NAMES.length)] + " " +
                    MALE_MIDDLE_NAMES[random.nextInt(MALE_MIDDLE_NAMES.length)] + " " +
-                   MALE_LAST_NAMES[random.nextInt(MALE_LAST_NAMES.length)];
+                   MALE_FIRST_NAMES[random.nextInt(MALE_LAST_NAMES.length)];
         }
-        return FEMALE_FIRST_NAMES[random.nextInt(FEMALE_FIRST_NAMES.length)] + " " +
+        return FEMALE_LAST_NAMES[random.nextInt(FEMALE_FIRST_NAMES.length)] + " " +
                FEMALE_MIDDLE_NAMES[random.nextInt(FEMALE_MIDDLE_NAMES.length)] + " " +
-               FEMALE_LAST_NAMES[random.nextInt(FEMALE_LAST_NAMES.length)];
+               FEMALE_FIRST_NAMES[random.nextInt(FEMALE_LAST_NAMES.length)];
     }
 
     public void contextDestroyed(ServletContextEvent sce) {
