@@ -20,7 +20,7 @@ import com.vtsft.models.DriverClass;
  * date: 05/05/2014
  */
 @Controller
-public class DriverSearchController {
+public class DriverController {
 
     @Autowired
     private DriverInMemoryDAO driverDAO;

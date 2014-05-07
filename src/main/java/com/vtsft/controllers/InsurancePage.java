@@ -9,7 +9,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
  * date: 06/05/2014
  */
 @Controller
-public class EditInsurancePage {
+public class InsurancePage {
 
     @RequestMapping(value = "/", method = RequestMethod.GET)
     public String render() {
