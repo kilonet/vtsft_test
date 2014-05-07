@@ -1,0 +1,25 @@
+body {
+    padding: 50px;
+}
+
+#insurance {
+    width: 800px;
+}
+
+#query {
+    width: 320px;
+}
+
+#searchResults {
+    width: 640px;
+    margin-top: -5px;
+}
+
+#editForm {
+    width: 640px;
+}
+
+#editForm form {
+    padding-left: 32px;
+}
+
