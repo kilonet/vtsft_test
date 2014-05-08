@@ -15,10 +15,6 @@ import com.vtsft.dao.DriverInMemoryDAO;
 import com.vtsft.models.Driver;
 import com.vtsft.models.DriverClass;
 
-/**
- * author: apokrevsky
- * date: 05/05/2014
- */
 @Controller
 public class DriverController {
 

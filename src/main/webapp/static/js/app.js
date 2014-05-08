@@ -15,7 +15,7 @@ ngInsurance.controller("DriversCtrl", function($scope, $http, $filter) {
         var result = $http.get(CONTEXT_ROOT + "/drivers/?query=" + encodeURIComponent($scope.query));
         result.success(function(data) {
             $scope.drivers = data;
-            $scope.showResults = true; // todo
+            $scope.showResults = true;
         })
     };
 

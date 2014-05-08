@@ -1,7 +1,5 @@
-package com.vtsft.auxiliary; /**
- * author: apokrevsky
- * date: 05/05/2014 
- */
+package com.vtsft.auxiliary;
+
 
 import java.util.Calendar;
 import java.util.Date;

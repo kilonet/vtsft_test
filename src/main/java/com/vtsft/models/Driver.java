@@ -2,10 +2,6 @@ package com.vtsft.models;
 
 import java.util.Date;
 
-/**
- * author: apokrevsky
- * date: 05/05/2014
- */
 public class Driver {
 
     private int id;

@@ -4,7 +4,7 @@
 <!DOCTYPE html>
 <html ng-app="ngInsurance">
 <head>
-    <title>Страховка</title>
+    <title>Страховка [<%= request.getServerName() %>]</title>
     <script src="<c:url value="/static/js/angular.js" />"></script>
     <script src="<c:url value="/static/js/app.js" />"></script>
     <link rel="stylesheet" href="<c:url value="/static/css/style.css" />">

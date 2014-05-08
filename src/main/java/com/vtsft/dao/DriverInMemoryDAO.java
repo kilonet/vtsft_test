@@ -9,10 +9,6 @@ import org.springframework.stereotype.Component;
 
 import com.vtsft.models.Driver;
 
-/**
- * author: apokrevsky
- * date: 05/05/2014
- */
 @Component
 public class DriverInMemoryDAO {
 
